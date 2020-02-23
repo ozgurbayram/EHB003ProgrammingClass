@@ -13,4 +13,6 @@ int main(void){
     if(!y){
         printf("This also True\n");
     }
+    
+    return 0;
 }
