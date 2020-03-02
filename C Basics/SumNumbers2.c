@@ -9,5 +9,8 @@ int main(){
         sum =sum + x;
         printf("%d \n",sum);
     }
+    
     printf("Sum of numbers between 0 and 50:%d \n",sum);
+
+    return 0;
 }

@@ -11,4 +11,5 @@ int main(){
         t= t+sayilar[i];
     }
     printf("%d",t);
+    return 0;
 }

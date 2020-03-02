@@ -26,4 +26,5 @@ int main(){
     printf("En Büyük Sayı: %d \n",max);
     printf("En Küçük Sayı: %d \n",min);
 
+    return 0;
 }
