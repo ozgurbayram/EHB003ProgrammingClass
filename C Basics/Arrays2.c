@@ -15,7 +15,7 @@ int main(){
         for (j = 0; j < COL; j++)
         {
             c[i][j] = a[i][j] + b[i][j];
-            printf("[%d][%d] = %d\n",i,j,c[i][j]);
+            printf("[%d] [%d] = %d\n",i,j,c[i][j]);
         }
         
     }
