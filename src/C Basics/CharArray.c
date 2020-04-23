@@ -6,5 +6,5 @@ int main(){
     {
         printf("%s \n",days[i]);
     }
-    
+    return 0;
 }

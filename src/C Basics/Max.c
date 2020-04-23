@@ -1,20 +1,26 @@
 #include <stdio.h>
+#define SIZE 5
 
 int main(){
-    int dizi[5] = {1,2,3,2,5};
-    int i;
-    int a = (sizeof(dizi)/sizeof(dizi[0])-1);
-    printf("%d \n",a);
-    int max = dizi[0];
-    for (i=2; i <= 5; i++)
+
+    int dizi[SIZE] = {1,5,2,6,4};
+    int max = dizi[1];
+    int min = dizi[0];
+
+    for (int i = 0; i < SIZE; ++i)
     {
-        if (max<dizi[i])
+        if (dizi[i]>max)
         {
             max = dizi[i];
-            break;
+        }
+        if (dizi[i]<min) 
+        {
+            min = dizi[i];
         }
     }
-
-    printf("%d \n",max);
     
+    printf("Max value is %d\n",max);
+    printf("Min value is %d\n",min);
+
+    return 0;
 }
