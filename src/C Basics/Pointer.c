@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    
     int i = 1;
     int *j = &i;
     
@@ -10,6 +9,6 @@ int main(){
 
     // i  Deiğşkeninin Değerini Yazdırır 
     printf("%d \n",*j);
+    
     return 0;    
-
 }
