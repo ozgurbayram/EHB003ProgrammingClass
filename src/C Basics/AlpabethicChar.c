@@ -24,4 +24,6 @@ int main(){
     {
         printf("%c is not a Alphabetic character\n",ch);
     }
+
+    return 0;
 }
