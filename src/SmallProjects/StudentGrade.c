@@ -51,7 +51,6 @@ int minimum(const int grades[][EXAMS],int pupils,int tests){
 			}
 		}
 	}
-
 	return lowGrade;
 }
 
@@ -71,7 +70,6 @@ int maximum(const int grades[][EXAMS],int pupils,int tests)
 			}
 		}
 	}
-
 	return highGrade;
 }
 
@@ -87,7 +85,6 @@ double average(const int setOfGrades[],int tests){
 	return (double) total/tests;
 }
 
-
 void printArray(const int grades[][EXAMS],int pupils,int tests){
 	int i;
 	int j;
@@ -101,6 +98,4 @@ void printArray(const int grades[][EXAMS],int pupils,int tests){
 			printf("%-5d ",grades[i][j] );
 		}
 	}
-
-	
 }
