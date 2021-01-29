@@ -2,7 +2,7 @@
 
 int main(int argc,char *argv[]){
 	if(argc == 1){
-		printf("You have only one argument enter a more argument please\n");	
+		printf("Please give more arguments\n");	
 	}	
 	else if(argc>1 && argc<4){
 		printf("Here is your arguments\n");
