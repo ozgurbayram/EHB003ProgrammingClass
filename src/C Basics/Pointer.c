@@ -4,10 +4,10 @@ int main(){
     int i = 1;
     int *j = &i;
     
-    // i Değşkenin Bellekteki Adresini Bulur
+    // Prints memory adrees of i variable
     printf("%u \n",j);
 
-    // i  Deiğşkeninin Değerini Yazdırır 
+    // Prints value of i
     printf("%d \n",*j);
     
     return 0;    
