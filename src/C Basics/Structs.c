@@ -4,21 +4,21 @@ typedef struct
 {
     int age;
     char *name;
-    enum {male,female} cinsiyet;
+    enum {male,female} sex;
 } Human;
 
 int main(){
-    char *cinsiyet[2] ={"erkek","kadın"};
+    char *sex[2] ={"erkek","kadın"};
     Human ali;
     ali.age =30;
     ali.name ="Ali";
-    ali.cinsiyet = male;
-    if (ali.cinsiyet==0)
+    ali.sex = male;
+    if (ali.sex==0)
     {
-        ali.cinsiyet=*cinsiyet[0];
+        ali.sex=*sex[0];
     }
-    printf("%s'nin yasi: %d \n",ali.name,ali.age);
-    printf("%s'nin cinsiyeti: %c \n",ali.name);
+    printf("%s's age: %d \n",ali.name,ali.age);
+    printf("%s's sex: %c \n",ali.sex);
 
     return 0;
 }
