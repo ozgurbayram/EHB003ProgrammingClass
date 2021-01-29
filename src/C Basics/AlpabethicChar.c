@@ -1,4 +1,4 @@
-// Kullanıcıdan girilen değerin alfabetik olup olmadığını kontrol eder
+// Checks given inputs is alphabetics ?
 #include <stdio.h>
 
 int as(char ch){
